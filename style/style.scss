@@ -1,0 +1,25 @@
+$primary: #27282c;
+$secondary: #faf9f6;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #faf9f6 #27282c;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #27282c;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #faf9f6;
+  border-radius: 10px;
+  border: 3px none #ffffff;
+}
